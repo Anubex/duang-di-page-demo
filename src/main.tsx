@@ -22,7 +22,7 @@ root.render(
       <HelmetProvider>
         <BrowserRouter>
           <Suspense>
-            <App />
+          <App />
             <SessionTimeout />
           </Suspense>
         </BrowserRouter>

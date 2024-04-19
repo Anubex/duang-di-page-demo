@@ -3,7 +3,7 @@ export default function BannerThird() {
     <>
       <img
         className="hidden w-full md:block"
-        src="/assets/banners/home-banner.png"
+        src="/assets/banners/menu.png"
         alt="home-third-banner"
       />
       <img

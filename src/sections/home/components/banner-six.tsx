@@ -1,7 +1,8 @@
 import { EServiceT, services } from '@/sections/e-service/config-service'
 import { Button, Link, Typography } from '@mui/material'
+import { validate } from 'numeral'
 import ReactMarkdown from 'react-markdown'
-
+import { useState } from 'react'
 export default function BannerSix() {
   return (
     <>
@@ -15,13 +16,28 @@ export default function BannerSix() {
               '-.5px -.5px 0 #00713b, .5px -.5px 0 #00713b, -.5px .5px 0 #00713b, .5px .5px 0 #00713b;',
           }}
         >
-          Our Services
         </Typography>
         <Typography variant="body1">
-          บริการครบครันทันใจ สะดวกง่ายแค่ปลายนิ้ว
+          ยินดีต้อนรับสู่เว็บไซต์เบอร์ดี เบอร์สวย เบอร์มงคล ซิมเบอร์สวย ซิมเบอร์มงคล ทำนายเบอร์โทรศัพท์ ซิมการ์ดเบอร์โทรศัพท์มือถือ
         </Typography>
       </div>
+              <div className='App h-screen bg-black
+              flex justify-center items-center'>
+              <label className=''>
+                ค้นหาเบอร์
+                <input type='text' className='h-10 w-8'/>
+                <input type='text' className='h-10 w-8'/>
+                <input type='text' className='h-10 w-8'/>
+                <input type='text' className='h-10 w-8'/>
+                <input type='text' className='h-10 w-8'/>
+                <input type='text' className='h-10 w-8'/>
+                <input type='text' className='h-10 w-8'/>
+                <input type='text' className='h-10 w-8'/>
+                <input type='text' className='h-10 w-8'/>
+                <input type='text' className='h-10 w-8'/>
 
+              </label>
+              </div>
       <div className="container mx-auto pb-[30px]">
         <div className="flex gap-8 overflow-x-auto p-4 md:grid md:grid-cols-2 md:gap-8 md:whitespace-normal md:p-0">
           {services.map((serviceData: EServiceT) => (

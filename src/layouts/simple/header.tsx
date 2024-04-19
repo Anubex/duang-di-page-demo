@@ -56,17 +56,13 @@ export default function Header() {
   }
 
   return (
-    <nav className="fixed start-0 top-0 z-20 h-[66px] w-full bg-gradient-to-b from-[#003F06] to-[#00781E] shadow-lg shadow-[#00000036] md:shadow-transparent">
+    <nav className="fixed start-0 top-0 z-20 h-[66px] w-full bg-gradient-to-b from-[#003B34] to-[#00A18E] shadow-lg shadow-[#00000036] md:shadow-transparent">
       <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
         <Link
           to="/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
-          <img
-            src="/assets/images/logo-main.svg"
-            className="h-8"
-            alt="Feels Logo"
-          />
+        
         </Link>
 
         <div className="flex space-x-3 md:order-2 md:space-x-0 rtl:space-x-reverse">

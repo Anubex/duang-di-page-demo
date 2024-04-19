@@ -11,7 +11,7 @@ const useMenuItems = (): MenuItem[] => {
   return [
     {
       title: t('header.top-up'),
-      path: '/top-up',
+      path: '/home',
     },
     {
       title: t('header.package'),

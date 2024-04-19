@@ -17,16 +17,16 @@ export default function Footer() {
               {t('footer.contact-address-title')}
             </span>
             <br />
-            21/109 ซอยศูนย์วิจัย ถนนพระราม 9<br /> แขวงบางกะปิ เขตห้วยขวาง
+            21/111-112 Soi Soonvijai, Rama9<br /> rd.Bangkapi, Huaikwang,
             <br />
-            กรุงเทพมหานคร 10310
+            Bangkok, 10310
           </div>
           <div className="mb-[25px] text-center text-[16px] md:mb-0 md:text-left">
             <span className="font-bold">{t('footer.contact-phone-title')}</span>
             <div className="my-[10px] flex flex-nowrap items-center justify-center gap-[10px] md:justify-start">
               <FaPhone />
-              <Link to="tel:0976980279" className="block hover:text-[#28A745]">
-                (+66) 097-698-0279
+              <Link to="tel:021147069" className="block hover:text-[#28A745]">
+                (+66) 021147069
               </Link>
             </div>
             <br />
