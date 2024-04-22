@@ -19,12 +19,15 @@ export default function BannerSix() {
         >
         </Typography>
         <Typography variant="body1">
+          
           ยินดีต้อนรับสู่เว็บไซต์เบอร์ดี เบอร์สวย เบอร์มงคล ซิมเบอร์สวย ซิมเบอร์มงคล ทำนายเบอร์โทรศัพท์ ซิมการ์ดเบอร์โทรศัพท์มือถือ
         </Typography>
+    
       </div> 
+    
       
       <div className=' h-screen bg-blue-200
-              flex justify-center items-center w-4/5 h-24 absolute top-50 right-0'>
+              flex justify-center items-center w-3/4 h-1/6 absolute top-50 right-0'>
                 
               <label className=''>
                 ค้นหาเบอร์
@@ -42,13 +45,30 @@ export default function BannerSix() {
               </label>
               
            </div>
+           <div className=' h-screen bg-teal-600
+               w-1/5 h-100 absolute insert-y-0 left-0'>
+
+                
+
+
+
+
+
+
+
+
+
+              </div>
+              
+       
            <div className=' h-screen bg-white
               flex justify-center items-center'>
-
-
+                
+           
+           
 
            </div>
-       
+           
    
     </>
   )
