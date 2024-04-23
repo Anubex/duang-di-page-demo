@@ -8,7 +8,7 @@ export default function BannerThird() {
       />
       <img
         className="block w-full md:hidden"
-        src="/assets/banners/home-banner-m.png"
+        src="/assets/banners/menu-m.png.jpg"
         alt="home-third-banner-mobile"
       />
     </>

@@ -28,7 +28,8 @@ export const StyledLabel = styled(Box, {
         color: theme.palette.text.primary,
         border: `2px solid ${theme.palette.text.primary}`,
       }),
-      // SOFT
+      // SOFT 
+    
       ...(softVariant && {
         color: theme.palette.text.secondary,
         backgroundColor: alpha(theme.palette.grey[500], 0.16),
@@ -43,6 +44,7 @@ export const StyledLabel = styled(Box, {
       backgroundColor: (theme.palette[colorKey] as any)?.main,
     }),
     // OUTLINED
+    
     ...(outlinedVariant && {
       backgroundColor: 'transparent',
       color: (theme.palette[colorKey] as any)?.main,

@@ -1,5 +1,6 @@
 import { Card, CardMedia, Paper, SxProps, Theme } from '@mui/material'
 import React, { FC } from 'react'
+import { MdOutlineRollerSkating } from 'react-icons/md'
 import Carousel from 'react-material-ui-carousel'
 
 export type CarouselItem = {
