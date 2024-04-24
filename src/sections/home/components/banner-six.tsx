@@ -3,6 +3,8 @@ import { Button, Link, Typography } from '@mui/material'
 import { validate } from 'numeral'
 import ReactMarkdown from 'react-markdown'
 import { useState } from 'react'
+import { MdLocalLaundryService } from 'react-icons/md'
+import { t } from 'i18next'
 
 export default function BannerSix() {
   return (
@@ -27,7 +29,7 @@ export default function BannerSix() {
     
       
       <div className=' h-screen bg-blue-200
-              flex justify-center items-center w-3/4 h-1/5 absolute top-50 right-0'>
+              flex justify-center items-center w-3/4 h-1/4 absolute top-50 right-0'>
                 
               <label className='font-bold text-3xl'>
                 ค้นหาเบอร์
@@ -64,7 +66,7 @@ export default function BannerSix() {
 
 <br/>
 <div className=' h-screen bg-white
-              flex justify-center w-128 h-8'>
+              flex justify-center w-128 h-7'>
                 </div>  
                 <br/>
 <button class="font-bold text-2xl button">หมวดหมู่ตามอาชีพ</button> <br/> <br/>
@@ -99,3 +101,5 @@ export default function BannerSix() {
     </>
   )
 }
+
+  

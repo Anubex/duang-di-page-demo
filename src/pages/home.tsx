@@ -5,7 +5,7 @@ export default function HomePage() {
   return (
     <>
       <Helmet>
-        <title>Feels Dealer SIM | Homepage</title>
+        <title>Berdee| Home Page</title>
       </Helmet>
 
       <HomeView />
