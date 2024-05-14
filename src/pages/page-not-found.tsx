@@ -7,7 +7,7 @@ export default function NotFoundPage() {
   return (
     <>
       <Helmet>
-        <title>Feels Dealer SIM | Page Not Found</title>
+        <title>Duangdi | Page Not Found</title>
       </Helmet>
 
       <NotFoundView />

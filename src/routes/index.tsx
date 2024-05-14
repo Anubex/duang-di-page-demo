@@ -1,7 +1,5 @@
 import SimpleLayout from '@/layouts/simple'
-import AnnouncementPage from '@/pages/announcement'
-import DocumentPage from '@/pages/document'
-import EServicePage from '@/pages/e-service'
+
 // import ComingSoonPage from '@/pages/coming-soon'
 import HomePage from '@/pages/home'
 // export const Page404 = lazy(() => import('@/pages/page-not-found'))
@@ -30,22 +28,6 @@ export default function Router() {
       children: [
         { element: <Navigate to="/home" />, index: true },
         { path: 'home', element: <HomePage /> },
-       
-        {
-          path: 'e-service',
-          element: <EServicePage />,
-        },
-       
-       
-        {
-          path: 'document',
-          element: <DocumentPage />,
-        },        
-        {
-          path: 'announcement',
-          element: <AnnouncementPage />,
-        },                
-        
         {
           path: '404',
           element: <Page404 />,
