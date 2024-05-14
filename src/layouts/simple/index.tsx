@@ -1,7 +1,6 @@
 import { FaArrowUpLong } from 'react-icons/fa6'
 import ScrollToTop from 'react-scroll-to-top'
 
-import Footer from './footer'
 import Header from './header'
 
 interface SimpleLayoutT {

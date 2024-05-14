@@ -1,4 +1,4 @@
-export default function BannerThird() {
+export default function BannerTop() {
   return (
     <>
       <img
