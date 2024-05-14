@@ -5,7 +5,7 @@ export default function HomePage() {
   return (
     <>
       <Helmet>
-        <title>Berdee| Home Page</title>
+        <title>Duangdi| Home Page</title>
       </Helmet>
 
       <HomeView />

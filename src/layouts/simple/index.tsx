@@ -11,7 +11,7 @@ interface SimpleLayoutT {
 export default function SimpleLayout({ children }: SimpleLayoutT) {
   const Arrow = (
     <>
-      <div className="grid justify-items-center">
+      <div className="grid justify-items-center ">
         <FaArrowUpLong
           size={24}
           style={{
@@ -28,7 +28,7 @@ export default function SimpleLayout({ children }: SimpleLayoutT) {
 
       <div className="mt-[66px] w-full">
         {children}
-        <Footer />
+    
       </div>
       <ScrollToTop
         smooth

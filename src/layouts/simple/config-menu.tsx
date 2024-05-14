@@ -6,19 +6,19 @@ export interface MenuItem {
 }
 
 const useMenuItems = (): MenuItem[] => {
-  const { t } = useTranslation()
+
 
   return [
     {
-      title: t('header.top-up'),
+      title: 'ดูดวง',
       path: '/home',
     },
     {
-      title: t('header.package'),
+      title: ' แพ็กเกจดูดวง',
       path: '/package',
     },
     {
-      title: t('header.register-sim'),
+      title: 'จองคิว',
       path: '/activate-sim',
     },
     // {

@@ -1,8 +1,9 @@
 import { useMemo, useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { Link } from 'react-router-dom'
+
 
 import useMenuItems from './config-menu'
+import { Link } from 'react-router-dom'
 
 interface LangT {
   value: string
@@ -56,8 +57,8 @@ export default function Header() {
   }
 
   return (
-    <nav className="fixed start-0 top-0 z-20 h-[66px] w-full bg-gradient-to-b from-[#003B34] to-[#00A18E] shadow-lg shadow-[#00000036] md:shadow-transparent">
-      <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
+    <nav className="fixed start-0 top-0 z-20 h-[67px] w-full bg-gradient-to-r from-[#AF52F8] to-[#6A03D1] shadow-lg shadow-[#00000036] md:shadow-transparent">
+      <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4 ">
         <Link
           to="/"
           className="flex items-center space-x-3 rtl:space-x-reverse"

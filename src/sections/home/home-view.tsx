@@ -1,20 +1,22 @@
-import BannerFive from './components/banner-five'
-import BannerFour from './components/banner-four'
-import BannerSix from './components/banner-six'
-import {TextBoxComponent} from '@syn'
+
+import MainSection from './components/main-section'
 // import BannerHome from './components/banner-home'
 // import BannerSecond from './components/banner-second'
-import BannerThird from './components/banner-thrid'
+import BannerTop from './components/banner-top'
+import BannerFooter from './components/banner-footer'
+import BannerReserve from './components/banner-reserve'
 
 
 export default function HomeView() {
   return (
     <>
       {/* <BannerHome /> */}
-      <BannerThird />
+      <BannerTop />
   
-      <BannerSix />
-      
+      <MainSection />
+      <BannerReserve/>
+      <BannerFooter/>
+   
    
     </>
   )
